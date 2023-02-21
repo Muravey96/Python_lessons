@@ -18,3 +18,20 @@ while num >= b:
     count += 1
 else:    
     print(-1)
+
+""" Другой вариант
+number = int(input("Введите число"))
+result = 1
+count = 3
+if number == 1:
+    print("Номер будет и 2 и 3")
+elif number == 0:
+    print("Первый номер")
+else:
+    while result < number:
+        count += 1
+        if result == number:
+            break
+        result = int(round(1.68 * result, 0))
+        print(result)
+    print("Номер будет ", count)  """
